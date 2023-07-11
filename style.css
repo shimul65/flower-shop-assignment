@@ -4,6 +4,7 @@
 }
 
 /* Common Shared Style */
+
 body {
     font-family: 'Lato', sans-serif;
     font-family: 'Work Sans', sans-serif;
@@ -16,7 +17,6 @@ body {
     font-family: Lato;
     font-size: 40px;
     font-weight: 800;
-    /* margin-top: 178px; */
 }
 
 .section-desc {
@@ -44,8 +44,6 @@ body {
     color: black;
 }
 
-
-
 /* Banner Style */
 
 header {
@@ -60,14 +58,12 @@ header {
     padding-top: 50px;
     margin-left: 10%;
     margin-right: 10%;
-    /* border: 2px solid black; */
 }
 
 .banner-content {
     max-width: 800px;
     height: 80%;
     margin-left: 2px;
-    /* border: 2px solid black; */
 }
 
 .banner-title {
@@ -84,8 +80,8 @@ header {
 }
 
 /* featured section style */
+
 .section1-featured {
-    /* border: 2px solid black; */
     text-align: center;
     height: 100%;
     margin-top: 130px;
@@ -93,17 +89,12 @@ header {
 
 .featured-image-container {
     display: flex;
-    /* align-items: center; */
     justify-content: space-between;
-    /* border: 2px solid black; */
     margin-left: 6%;
     margin-right: 6%;
-    /* margin-bottom: 2x; */
-    /* height: auto; */
 }
 
 .featured-image {
-    /* border: 2px solid black; */
     display: flex;
     flex-direction: column;
     border-radius: 300px 300px 0px 0px;
@@ -125,7 +116,6 @@ header {
 }
 
 .image {
-    /* border: 2px solid black; */
     width: 310px;
     height: 100%;
     margin-bottom: 0px;
@@ -150,8 +140,6 @@ header {
     line-height: 35px;
     background-color: #FFF;
     background-size: cover;
-    /* border: 2px solid black; */
-    /* margin-top: 20px; */
     width: 100%;
 }
 
@@ -162,7 +150,6 @@ header {
 /* Service Section */
 
 .section2-service {
-    /* border: 2px solid black; */
     text-align: center;
     height: 350px;
     margin-left: 10%;
@@ -173,14 +160,10 @@ header {
 .service-container {
     display: flex;
     justify-content: space-around;
-    /* justify-content: space-between; */
-    /* justify-content: space-evenly; */
     align-items: center;
     height: 100%;
     border-radius: 8px;
-    /* border: none; */
     background: rgba(39, 39, 39, 0.05);
-    /* border: none; */
 }
 
 .service-opt {
@@ -196,15 +179,14 @@ header {
 }
 
 /* Hot Deal- Section3 Styles */
+
 .section3 {
-    /* border: 2px solid black; */
     background: rgba(229, 84, 115, 0.05);
     margin-top: 128px;
 
 }
 
 .hotdeal-container {
-    /* border: 2px solid black; */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -215,9 +197,7 @@ header {
 }
 
 .hotdeal {
-    /* border: 2px solid black; */
     max-width: 800px;
-    /* height: auto; */
     text-align: center;
     margin-bottom: 10px;
 }
@@ -227,24 +207,19 @@ header {
 }
 
 .deal-image {
-    /* border: 2px solid black; */
     width: 400px;
 }
 
 /* Insta Section 4 Styles */
+
 .section4-insta {
-    /* border: 2px solid black; */
     margin-top: 100px;
     margin-bottom: 60px;
 }
 
 .insta-image-container {
-    /* border: 2px solid black; */
     display: flex;
     justify-content: space-around;
-    /* justify-content: space-between; */
-    /* justify-content: space-evenly; */
-    /* align-content: end; */
     align-items: center;
     margin-left: 10%;
     margin-right: 10%;
@@ -252,27 +227,20 @@ header {
 }
 
 .insta-image-div {
-    /* border: 2px solid black; */
-    /* width: auto; */
-    /* max-width: 400px; */
-    /* width: 100%; */
     margin: 0px auto;
 }
 
 .insta-image {
     width: 100%;
     height: 100%;
-    /* margin: 0px 0px; */
     margin: auto;
-
 }
 
 /* Latest Deals Section Styles */
+
 .section5-latestdeals {
-    /* border: 2px solid black; */
     height: 100%;
     align-items: center;
-
 }
 
 .latestdeal {
@@ -285,7 +253,6 @@ header {
     background-size: 100% 100%;
     border-radius: 8px;
     padding: 120px 250px;
-
 }
 
 input {
@@ -295,7 +262,6 @@ input {
     padding: 20px 43px;
     font-size: 20px;
     border: none;
-    
 }
 
 .input-feild {
@@ -308,6 +274,7 @@ input {
 }
 
 /* Footer Styles */
+
 footer {
     height: 450px;
     border: 2px solid black;
@@ -316,13 +283,10 @@ footer {
 }
 
 .footer-content {
-    /* border: 2px solid rgb(245, 4, 4); */
     margin: 120px auto;
     text-align: center;
-    height:fit-content;
+    height: fit-content;
     width: 800px;
-
-
 }
 
 .foot-title {
