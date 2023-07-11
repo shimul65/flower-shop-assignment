@@ -295,12 +295,14 @@ input {
     padding: 20px 43px;
     font-size: 20px;
     border: none;
+    
 }
 
 .input-feild {
     display: flex;
     margin: 0px 5%;
-    width: 90%;
+    padding: 0px 5%;
+    width: 80%;
     height: 70px;
     gap: 10px;
 }
