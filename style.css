@@ -55,16 +55,14 @@ header {
 .banner-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding-top: 50px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 0px 10%;
 }
 
 .banner-content {
     max-width: 800px;
     height: 80%;
-    margin-left: 2px;
+    margin: auto 2px;
 }
 
 .banner-title {
@@ -267,11 +265,10 @@ input {
 
 .input-feild {
     display: flex;
-    margin: 0px 5%;
+    justify-content: center;
+    gap: 15px;
     padding: 0px 5%;
-    width: 80%;
     height: 70px;
-    gap: 10px;
 }
 
 /* Footer Styles */
@@ -295,7 +292,7 @@ footer {
 }
 
 .foot-desc {
-    color: rgba(255, 255, 255, 0.90);
+    color: rgba(202, 201, 201, 0.9);
     font-size: 18px;
     line-height: 35px;
 }
