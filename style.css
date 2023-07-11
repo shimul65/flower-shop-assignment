@@ -16,7 +16,7 @@ body {
     font-family: Lato;
     font-size: 40px;
     font-weight: 800;
-    margin-top: 178px;
+    /* margin-top: 178px; */
 }
 
 .section-desc {
@@ -49,6 +49,7 @@ a:hover {
 }
 
 /* Banner Style */
+
 header {
     background-color: rgba(229, 84, 115, 0.10);
     height: 80%;
@@ -59,14 +60,16 @@ header {
     justify-content: space-between;
     align-items: center;
     padding-top: 50px;
-    padding-left: 10%;
-    padding-right: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
     border: 2px solid black;
 }
 
 .banner-content {
     max-width: 800px;
     height: 80%;
+    margin-left: 2px;
+    border: 2px solid black;
 }
 
 .banner-title {
@@ -83,24 +86,26 @@ header {
 }
 
 /* featured section style */
-.featured-section {
+.section1-featured {
     border: 2px solid black;
     text-align: center;
     height: 100%;
+    margin-top: 130px;
 }
 
 .featured-image-container {
     display: flex;
+    /* align-items: center; */
     justify-content: space-between;
-    /* border: 2px solid black; */
-    padding-left: 10%;
-    padding-right: 10%;
+    border: 2px solid black;
+    margin-left: 6%;
+    margin-right: 6%;
     /* margin-bottom: 2x; */
     /* height: auto; */
 }
 
 .featured-image {
-    /* border: 2px solid black; */
+    border: 2px solid black;
     display: flex;
     flex-direction: column;
     border-radius: 300px 300px 0px 0px;
@@ -153,18 +158,20 @@ header {
 
 /* Service Section */
 
-.service {
+.section2-service {
     border: 2px solid black;
     text-align: center;
     height: 350px;
-    padding-left: 12%;
-    padding-right: 12%;
+    margin-left: 10%;
+    margin-right: 10%;
 
 }
 
 .service-container {
     display: flex;
     justify-content: space-around;
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
     align-items: center;
     height: 100%;
     border-radius: 8px;
@@ -181,4 +188,104 @@ header {
     font-weight: 600;
     line-height: 35px;
     margin-top: 20px;
+}
+
+/* Hot Deal- Section3 Styles */
+.section3{
+    border: 2px solid black;
+    background: rgba(229, 84, 115, 0.05);
+    margin-top: 128px;
+
+}
+.hotdeal-container {
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.hotdeal {
+    border: 2px solid black;
+    max-width: 800px;
+    /* height: auto; */
+    text-align: center;
+    margin-bottom: 10px;
+}
+.text-primary{
+    color: #E55473;
+}
+
+.deal-image {
+    border: 2px solid black;
+    width: 400px;
+}
+/* Insta Section 4 Styles */
+.section4-insta{
+    border: 2px solid black;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+.insta-image-container{
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* align-content: end; */
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+}
+.insta-image-div{
+    border: 2px solid black;
+    /* width: auto; */
+    /* max-width: 400px; */
+    /* width: 100%; */
+    margin: 0px auto;
+}
+.insta-image{
+    width: 100%;
+    height: 100%;
+    /* margin: 0px 0px; */
+    margin: auto;
+   
+}
+/* Latest Deals Section Styles */
+.section5-latestdeals{
+    border: 2px solid black;
+    height: 100%;
+    align-items: center;
+
+}
+.latestdeal{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 128px;
+    margin-bottom: 128px;
+    height: 100%;
+    background-image: url('./images-flower/9\ rectangle.png') ;
+    background-size: 100% 100%;
+    border-radius: 8px;
+    padding: 120px 250px;
+
+}
+input{
+    width: 900px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px 43px;
+    font-size: 20px;
+    border: none;
+}
+
+.input-feild{
+    display: flex;
+    margin: 0px 5%;
+    width: 90%;
+    height: 70px;
+    gap: 10px;
 }
