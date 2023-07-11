@@ -1,5 +1,5 @@
 * {
-    margin: 0px;
+    margin: 2px;
     padding: 0px;
 }
 
@@ -89,8 +89,8 @@ header {
 .featured-image-container {
     display: flex;
     justify-content: space-between;
-    margin-left: 6%;
-    margin-right: 6%;
+    margin: 0px 6%;
+
 }
 
 .featured-image {
@@ -146,6 +146,53 @@ header {
     color: #E55473;
 }
 
+/* Bonus Section Styles */
+
+.flower-types{
+    height: auto;
+    margin-bottom: 120px;
+}
+
+.flower-types-container{
+    margin-left: 10%;
+    height: 100%;
+    margin-right: 10%;
+    margin-bottom: 50px;
+}
+
+.types{
+    display: flex;
+    height: 300px;
+    margin: 0 auto;
+    gap: 20px;
+    width:auto;
+}
+
+.types-two{
+    flex-direction: row-reverse;
+}
+
+.type-content{
+display: flex;
+flex-direction: column;
+text-align: left;
+padding: 30px 0px;
+}
+
+.types-title,.types-desc{
+    text-align: left;
+}
+
+.types-title-two,.types-desc-two{
+    text-align:right;
+}
+
+.type-image{
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+}
+
 /* Service Section */
 
 .section2-service {
@@ -153,7 +200,6 @@ header {
     height: 350px;
     margin-left: 10%;
     margin-right: 10%;
-
 }
 
 .service-container {
