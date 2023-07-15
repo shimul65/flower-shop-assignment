@@ -45,11 +45,16 @@ body {
     color: black;
 }
 
+.text-primary {
+    color: #E55473;
+}
+
 /* Banner Style */
 
 header {
-    background-color: rgba(229, 84, 115, 0.10);
+    background-color: rgba(226, 6, 53, 0.1);
     height: 80%;
+    /* width: 100vw; */
 }
 
 .banner-container {
@@ -60,8 +65,8 @@ header {
 }
 
 .banner-content {
-    max-width: 800px;
-    height: 80%;
+    max-width: 100%;
+    height: auto;
     margin: auto 2px;
 }
 
@@ -78,6 +83,15 @@ header {
     margin-bottom: 32px;
 }
 
+.banner-image {
+    /* border: 2px solid black; */
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    
+    /* border: none; */
+}
+
 /* featured section style */
 
 .section1-featured {
@@ -91,6 +105,8 @@ header {
     justify-content: space-between;
     margin: 0px 6%;
 
+    margin-bottom: 100px;
+
 }
 
 .featured-image {
@@ -102,6 +118,7 @@ header {
     height: 600px;
     align-items: center;
     margin: 0px auto;
+
 }
 
 .image-div2 {
@@ -121,73 +138,69 @@ header {
     margin-top: 90px;
 }
 
-.featured-link {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-left: 10%;
-    padding-right: 10%;
-    margin-bottom: 100px;
-    margin-top: 25px;
-    gap: 10%;
-}
-
-.featured-link>a {
+.featured-image>a {
     color: #272727;
     font-size: 24px;
+    /* height: 50px; */
     font-weight: 700;
     line-height: 35px;
     background-color: #FFF;
     background-size: cover;
     width: 100%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
 }
 
-.featured-link>a:hover {
+a:hover {
     color: #E55473;
 }
 
 /* Bonus Section Styles */
 
-.flower-types{
-    height: auto;
+.flowers {
+    /* height: auto; */
     margin-bottom: 120px;
 }
 
-.flower-types-container{
+.flower-types-container {
     margin-left: 10%;
     height: 100%;
     margin-right: 10%;
     margin-bottom: 50px;
 }
 
-.types{
+.flower-types {
     display: flex;
     height: 300px;
     margin: 0 auto;
     gap: 20px;
-    width:auto;
+    width: auto;
 }
 
-.types-two{
+
+.types-two {
     flex-direction: row-reverse;
 }
 
-.type-content{
-display: flex;
-flex-direction: column;
-text-align: left;
-padding: 30px 0px;
+.type-content {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 30px 0px;
 }
 
-.types-title,.types-desc{
+.types-title,
+.types-desc {
     text-align: left;
 }
 
-.types-title-two,.types-desc-two{
-    text-align:right;
+.types-title-two,
+.types-desc-two {
+    text-align: right;
 }
 
-.type-image{
+.type-image {
     width: 300px;
     height: auto;
     border-radius: 5px;
@@ -228,7 +241,6 @@ padding: 30px 0px;
 .section3 {
     background: rgba(229, 84, 115, 0.05);
     margin-top: 128px;
-
 }
 
 .hotdeal-container {
@@ -247,9 +259,7 @@ padding: 30px 0px;
     margin-bottom: 10px;
 }
 
-.text-primary {
-    color: #E55473;
-}
+
 
 .deal-image {
     width: 400px;
@@ -284,8 +294,7 @@ padding: 30px 0px;
 /* Latest Deals Section Styles */
 
 .section5-latestdeals {
-    height: 100%;
-    align-items: center;
+    height: fit-content;
 }
 
 .latestdeal {
@@ -300,6 +309,14 @@ padding: 30px 0px;
     padding: 120px 250px;
 }
 
+.input-feild {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 0px 5%;
+    height: 70px;
+}
+
 input {
     width: 900px;
     background-color: white;
@@ -309,28 +326,19 @@ input {
     border: none;
 }
 
-.input-feild {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    padding: 0px 5%;
-    height: 70px;
-}
+
 
 /* Footer Styles */
 
-footer {
-    height: 450px;
-    border: 2px solid black;
-    background-color: #111010;
-    color: white;
-}
-
 .footer-content {
-    margin: 120px auto;
-    text-align: center;
-    height: fit-content;
-    width: 800px;
+    margin: 120px auto 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #111010;
+    height: 450px;
 }
 
 .foot-title {
@@ -346,4 +354,127 @@ footer {
 .footer-foot {
     color: rgba(255, 255, 255, 0.40);
     font-size: 16px;
+}
+
+.hide {
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+    .latestdeal {
+        margin-left: 0%;
+        margin-right: 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 100vh;
+        background: none;
+        background-image: url('./images-flower/9\ rectangle.png');
+        background-size: cover;
+        border-radius: 8px;
+        padding: 0px 0px;
+    }
+
+    .input-feild {
+        flex-direction: column;
+        height: 150px;
+    }
+
+    input {
+        height: 50px;
+        width: 400px;
+        background-color: rgb(180, 178, 178);
+        border-radius: 8px;
+        padding: 0px 0px;
+        font-size: 20px;
+        color: black;
+        padding-left: 10px;
+    }
+
+    .section5-title {
+        color: #E55473;
+        background: transparent;
+        text-shadow: 3px 3px 5px white;
+    }
+    .section-title{
+        width: 100%;
+        text-align: center;
+    }
+    .section-desc{
+        width: auto;
+    }
+
+    .btn-primary {
+        width: 200px;
+        height: 50px;
+        padding: 10px;
+    }
+
+    .flower-types-container {
+        margin-left: 0px;
+        height: fit-content;
+        margin-right: 0px;
+        margin-bottom: 50px;
+    }
+
+    .flower-types {
+        flex-direction: column;
+        height: fit-content;
+        align-items: center;
+        margin: 0 auto;
+        gap: 0px;
+        width: auto;
+    }
+
+    .types-title,
+    .types-desc {
+        text-align: center;
+    }
+
+    .types-title-two,
+    .types-desc-two {
+        text-align: center;
+    }
+
+    .featured-image-container {
+        flex-direction: column;
+        margin: 0px 0px;
+        margin-bottom: 100px;
+    }
+
+    .featured-image {
+        border-radius: 300px 300px 0px 0px;
+        background: rgba(167, 33, 98, 0.15);
+        width: 100%;
+        height: 600px;
+        align-items: center;
+        margin: 15px 0px;
+    }
+    .image-div2 {
+        border-radius: 300px 300px 0px 0px;
+        background: rgba(5, 151, 160, 0.15);
+    }
+    
+    .image-div3 {
+        border-radius: 300px 300px 0px 0px;
+        background: rgba(71, 125, 17, 0.15);
+    }
+    .hotdeal-container {
+        justify-content: space-between;
+        padding: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .deal-image{
+        width: 250px;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .banner-image>img {
+        width: 400px;
+        flex-direction: column;
+        height: 300px;
+    }
 }
