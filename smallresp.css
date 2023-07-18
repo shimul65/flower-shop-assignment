@@ -1,0 +1,117 @@
+@media screen and (max-width:576px) {
+
+    .banner-container,
+    .featured-image-container,
+    .section1-featured,
+    .flowers,
+    .service-container,
+    .hotdeal-container,
+    .flower-types {
+        flex-direction: column;
+        padding: 15px 0px 0px;
+    }
+
+    .latestdeal {
+        padding: 20px 0px;
+    }
+
+    .input-feild {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .input-feild input {
+        padding: 10px 40px;
+        font-size: 1rem;
+    }
+
+    .section5-title {
+        color: #E55473;
+        background: transparent;
+        text-shadow: 3px 3px 5px rgb(173, 173, 173);
+    }
+
+    .section5-latestdeals {
+        margin: 20px auto;
+        padding: 3%;
+    }
+
+    .section4-insta {
+        padding: 3%;
+    }
+
+    .insta-image-container {
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        column-gap: 5px;
+    }
+
+    .section3 {
+        margin-top: 20px;
+    }
+
+    .hotdeal-container {
+        gap: 20px;
+    }
+
+    .service-header {
+        font-size: 1rem;
+    }
+
+    .flowers {
+        margin-bottom: 10px;
+    }
+
+    .types-title,
+    .types-desc {
+        text-align: center;
+    }
+
+    .section1-featured {
+        margin-top: 10px;
+    }
+
+    .image {
+        width: 90%;
+        height: 300px;
+    }
+
+    .featured-image>a {
+        font-size: 1.25rem;
+    }
+
+    .featured-image-container {
+        gap: 10px;
+        margin: 0px 2%;
+        margin-bottom: 10px;
+
+    }
+
+    .banner-content {
+        text-align: center;
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .banner-title {
+        font-size: 2rem;
+    }
+
+    .banner-desc {
+        color: rgba(39, 39, 39, 0.95);
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .btn-primary {
+        padding: 15px;
+        font-size: 1rem;
+    }
+
+    .banner-image img {
+        width: 60%;
+    }
+}

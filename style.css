@@ -8,21 +8,20 @@
 body {
     font-family: 'Lato', sans-serif;
     font-family: 'Work Sans', sans-serif;
-    width: 100%;
 }
 
 .section-title {
     color: #272727;
     text-align: center;
     font-family: Lato;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 800;
 }
 
 .section-desc {
     color: rgba(44, 44, 44, 0.85);
     text-align: center;
-    font-size: 18px;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 28px;
     margin-top: 24px;
@@ -35,7 +34,7 @@ body {
     background: #E55473;
     padding: 20px 43px;
     color: #FFF;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .btn-primary:hover {
@@ -52,27 +51,25 @@ body {
 /* Banner Style */
 
 header {
-    /* border: 2px solid black; */
     background-color: rgba(226, 6, 53, 0.1);
-    height: 80%;
-    /* width: fit-content; */
+    height: 70%;
 }
 
 .banner-container {
+    max-width: 1920px;
     display: flex;
     justify-content: space-between;
-    padding-top: 50px;
-    margin: 0px 10%;
+    padding: 50px 7% 0px;
+    margin: 0px auto;
 }
 
 .banner-content {
-    max-width: 100%;
-    height: auto;
-    margin: auto 2px;
+    width: 100%;
+    margin: auto 0px;
 }
 
 .banner-title {
-    font-size: 80px;
+    font-size: 5rem;
 }
 
 .banner-desc {
@@ -85,27 +82,32 @@ header {
 }
 
 .banner-image {
+    width: fit-content;
     display: flex;
-    margin-top: 50px;
+    justify-content: center;
     margin-bottom: 0px;
-    
-    /* border: none; */
+}
+
+.banner-image img {
+    width: 100%;
+    margin-bottom: 0px;
 }
 
 /* featured section style */
 
 .section1-featured {
+    max-width: 1920px;
+    margin: 0px auto;
+    padding: 50px 7% 0px;
     text-align: center;
-    height: 100%;
     margin-top: 130px;
 }
 
 .featured-image-container {
     display: flex;
     justify-content: space-between;
-    margin: 0px 6%;
+    gap: 50px;
     margin-bottom: 100px;
-
 }
 
 .featured-image {
@@ -113,11 +115,9 @@ header {
     flex-direction: column;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
-    width: 500px;
-    height: 600px;
+    width: 100%;
+    height: fit-content;
     align-items: center;
-    margin: 0px auto;
-
 }
 
 .image-div2 {
@@ -131,23 +131,22 @@ header {
 }
 
 .image {
-    width: 310px;
-    height: 100%;
+    width: 90%;
+    height: 450px;
     margin-bottom: 0px;
     margin-top: 90px;
 }
 
 .featured-image>a {
     color: #272727;
-    font-size: 24px;
-    /* height: 50px; */
+    font-size: 1.5rem;
+    height: 50px;
     font-weight: 700;
     line-height: 35px;
     background-color: #FFF;
-    background-size: cover;
     width: 100%;
-    margin-bottom: 0px;
-    margin-top: 0px;
+    margin: auto 0;
+    padding-top: 10px;
 
 }
 
@@ -158,25 +157,18 @@ a:hover {
 /* Bonus Section Styles */
 
 .flowers {
-    /* height: auto; */
+    max-width: 1920px;
+    margin: 0 auto;
     margin-bottom: 120px;
-}
-
-.flower-types-container {
-    margin-left: 10%;
-    height: 100%;
-    margin-right: 10%;
-    margin-bottom: 50px;
+    padding: 10px 7% 0px;
 }
 
 .flower-types {
     display: flex;
-    height: 300px;
+    align-items: center;
     margin: 0 auto;
     gap: 20px;
-    width: auto;
 }
-
 
 .types-two {
     flex-direction: row-reverse;
@@ -184,8 +176,8 @@ a:hover {
 
 .type-content {
     display: flex;
+    max-width: 600px;
     flex-direction: column;
-    text-align: left;
     padding: 30px 0px;
 }
 
@@ -200,25 +192,29 @@ a:hover {
 }
 
 .type-image {
-    width: 300px;
-    height: auto;
     border-radius: 5px;
+}
+
+.flower-types img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
 }
 
 /* Service Section */
 
 .section2-service {
     text-align: center;
-    height: 350px;
-    margin-left: 10%;
-    margin-right: 10%;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0px 7%;
 }
 
 .service-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 100%;
+    min-height: 300px;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
 }
@@ -243,13 +239,12 @@ a:hover {
 }
 
 .hotdeal-container {
+    max-width: 1920px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-top: 90px;
-    padding-bottom: 90px;
-    margin-left: 10%;
-    margin-right: 10%;
+    padding: 40px 7%;
+    margin: 0px auto;
 }
 
 .hotdeal {
@@ -257,48 +252,41 @@ a:hover {
     text-align: center;
     margin-bottom: 10px;
 }
+
 .deal-image {
-    width:fit-content;
+    width: fit-content;
 }
 
 /* Insta Section 4 Styles */
 
 .section4-insta {
-    margin-top: 100px;
-    margin-bottom: 60px;
+    max-width: 1920px;
+    margin: 50px auto 0px;
+    padding: 0px 7%;
 }
 
 .insta-image-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-left: 10%;
-    margin-right: 10%;
     margin-top: 10px;
-}
-
-.insta-image-div {
-    margin: 0px auto;
 }
 
 .insta-image {
     width: 100%;
-    height: 100%;
-    margin: auto;
+    box-shadow: 2px 2px 5px rgb(213, 216, 216);
+    border-radius: 5px;
 }
 
 /* Latest Deals Section Styles */
 
 .section5-latestdeals {
-    height: fit-content;
+    max-width: 1920px;
+    margin: 100px auto;
+    padding: 0px 7%;
 }
 
 .latestdeal {
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 128px;
-    margin-bottom: 128px;
-    height: 100%;
     background-image: url('./images-flower/9\ rectangle.png');
     background-size: 100% 100%;
     border-radius: 8px;
@@ -309,12 +297,11 @@ a:hover {
     display: flex;
     justify-content: center;
     gap: 15px;
-    padding: 0px 5%;
-    height: 70px;
+    min-height: 70px;
 }
 
 input {
-    width: 900px;
+    width: 50%;
     background-color: white;
     border-radius: 8px;
     padding: 20px 43px;
@@ -322,19 +309,17 @@ input {
     border: none;
 }
 
-
-
 /* Footer Styles */
 
 .footer-content {
-    margin: 120px auto 0px;
+    margin: 80px auto 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     color: white;
     background-color: #111010;
-    height: 450px;
+    height: 400px;
 }
 
 .foot-title {
@@ -356,70 +341,71 @@ input {
     display: none;
 }
 
-@media screen and (max-width:576px) {
-    .latestdeal {
-        margin-left: 0%;
-        margin-right: 0%;
-        display: flex;
+/* @media screen and (max-width:576px) {
+
+    .banner-container,
+    .featured-image-container,
+    .section1-featured,
+    .flowers,
+    .service-container,
+    .hotdeal-container,
+    .flower-types {
         flex-direction: column;
-        justify-content: space-around;
-        height: 100vh;
-        background: none;
-        background-image: url('./images-flower/9\ rectangle.png');
-        background-size: cover;
-        border-radius: 8px;
-        padding: 0px 0px;
+        padding: 15px 0px 0px;
+    }
+
+    .latestdeal {
+        padding: 20px 0px;
     }
 
     .input-feild {
+        display: flex;
         flex-direction: column;
-        height: 150px;
+        align-items: center;
     }
 
-    input {
-        height: 50px;
-        width: 300px;
-        background-color: rgb(180, 178, 178);
-        border-radius: 8px;
-        padding: 0px 0px;
-        font-size: 20px;
-        color: black;
-        padding-left: 10px;
+    .input-feild input {
+        padding: 10px 40px;
+        font-size: 1rem;
     }
 
     .section5-title {
         color: #E55473;
         background: transparent;
-        text-shadow: 3px 3px 5px white;
-    }
-    .section-title{
-        width: 100%;
-        text-align: center;
-    }
-    .section-desc{
-        width: auto;
+        text-shadow: 3px 3px 5px rgb(173, 173, 173);
     }
 
-    .btn-primary {
-        width: 200px;
-        height: 50px;
-        padding: 10px;
+    .section5-latestdeals {
+        margin: 20px auto;
+        padding: 3%;
     }
 
-    .flower-types-container {
-        margin-left: 0px;
-        height: fit-content;
-        margin-right: 0px;
-        margin-bottom: 50px;
+    .section4-insta {
+        padding: 3%;
     }
 
-    .flower-types {
-        flex-direction: column;
-        height: fit-content;
-        align-items: center;
-        margin: 0 auto;
-        gap: 0px;
-        width: auto;
+    .insta-image-container {
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        column-gap: 5px;
+    }
+
+    .section3 {
+        margin-top: 20px;
+    }
+
+    .hotdeal-container {
+        gap: 20px;
+    }
+
+    .service-header {
+        font-size: 1rem;
+    }
+
+    .flowers {
+        margin-bottom: 10px;
     }
 
     .types-title,
@@ -427,59 +413,154 @@ input {
         text-align: center;
     }
 
-    .types-title-two,
-    .types-desc-two {
-        text-align: center;
+    .section1-featured {
+        margin-top: 10px;
+    }
+
+    .image {
+        width: 90%;
+        height: 300px;
+    }
+
+    .featured-image>a {
+        font-size: 1.25rem;
     }
 
     .featured-image-container {
-        flex-direction: column;
-        margin: 0px 0px;
-        margin-bottom: 100px;
+        gap: 10px;
+        margin: 0px 2%;
+        margin-bottom: 10px;
+
     }
 
-    .featured-image {
-        border-radius: 300px 300px 0px 0px;
-        background: rgba(167, 33, 98, 0.15);
+    .banner-content {
+        text-align: center;
         width: 100%;
-        height: 600px;
-        align-items: center;
-        margin: 15px 0px;
+        margin: 20px auto;
     }
-    .image-div2 {
-        border-radius: 300px 300px 0px 0px;
-        background: rgba(5, 151, 160, 0.15);
+
+    .banner-title {
+        font-size: 2rem;
     }
-    
-    .image-div3 {
-        border-radius: 300px 300px 0px 0px;
-        background: rgba(71, 125, 17, 0.15);
+
+    .banner-desc {
+        color: rgba(39, 39, 39, 0.95);
+        font-size: 14px;
+        line-height: 20px;
     }
-    .hotdeal-container {
-        justify-content: space-between;
-        padding: 0px;
-        margin-left: 0px;
-        margin-right: 0px;
+
+    .btn-primary {
+        padding: 15px;
+        font-size: 1rem;
     }
-    .deal-image{
-        width: 250px;
+
+    .banner-image img {
+        width: 60%;
     }
-    .banner-container{
-        flex-direction: column-reverse;
-        gap: 20px;
-    }
-    .banner-image>img {
-        width: 400px;
+} */
+
+/* @media screen and (min-width:576.1px) and (max-width:992px) {
+
+    .banner-container,
+    .section1-featured,
+    .flowers,
+    .flower-types,
+    .section2-service,
+    .section4-insta {
         flex-direction: column;
-        height: 300px;
+        padding: 30px 0% 0px;
     }
-    .insta-image-container{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        gap: 15px;
+
+    .latestdeal {
+        padding: 50px;
     }
-    .insta-image-div>img{
-        border-radius: 5px;
-        box-shadow: 2px 2px 4px grey;
+
+    .input-feild {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-}
+
+    .insta-image-container {
+        gap: 5px;
+    }
+
+    .section5-latestdeals {
+        margin: 20px auto;
+        padding: 0;
+    }
+
+    .section3 {
+        margin-top: 20px;
+    }
+
+    .hotdeal-container {
+        flex-direction: column-reverse;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .service-header {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .flowers {
+        margin-bottom: 10px;
+    }
+
+    .types-title,
+    .types-desc {
+        text-align: center;
+    }
+
+    .section1-featured {
+        margin-top: 0px;
+    }
+
+    .featured-image-container {
+        gap: 5px;
+        margin: 0px auto;
+        margin-bottom: 20px;
+
+    }
+
+    .image {
+        width: 90%;
+        height: 250px;
+    }
+
+    .featured-image>a {
+        font-size: 1.2rem;
+    }
+
+    .banner-container {
+        align-items: center;
+    }
+
+    .banner-content {
+        text-align: center;
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .banner-title {
+        font-size: 3rem;
+    }
+
+    .banner-desc {
+        color: rgba(39, 39, 39, 0.95);
+        font-size: 1rem;
+        line-height: 20px;
+    }
+
+    .btn-primary {
+        padding: 20px;
+        width: 20%;
+        font-size: 1rem;
+    }
+
+    .banner-image img {
+        width: 60%;
+    }
+} */

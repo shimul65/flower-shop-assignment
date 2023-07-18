@@ -1,0 +1,105 @@
+@media screen and (min-width:576.1px) and (max-width:992px) {
+
+    .banner-container,
+    .section1-featured,
+    .flowers,
+    .flower-types,
+    .section2-service,
+    .section4-insta {
+        flex-direction: column;
+        padding: 30px 0% 0px;
+    }
+
+    .latestdeal {
+        padding: 50px;
+    }
+
+    .input-feild {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .insta-image-container {
+        gap: 5px;
+    }
+
+    .section5-latestdeals {
+        margin: 20px auto;
+        padding: 0;
+    }
+
+    .section3 {
+        margin-top: 20px;
+    }
+
+    .hotdeal-container {
+        flex-direction: column-reverse;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .service-header {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .flowers {
+        margin-bottom: 10px;
+    }
+
+    .types-title,
+    .types-desc {
+        text-align: center;
+    }
+
+    .section1-featured {
+        margin-top: 0px;
+    }
+
+    .featured-image-container {
+        gap: 5px;
+        margin: 0px auto;
+        margin-bottom: 20px;
+
+    }
+
+    .image {
+        width: 90%;
+        height: 250px;
+    }
+
+    .featured-image>a {
+        font-size: 1.2rem;
+    }
+
+    .banner-container {
+        align-items: center;
+    }
+
+    .banner-content {
+        text-align: center;
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .banner-title {
+        font-size: 3rem;
+    }
+
+    .banner-desc {
+        color: rgba(39, 39, 39, 0.95);
+        font-size: 1rem;
+        line-height: 20px;
+    }
+
+    .btn-primary {
+        padding: 20px;
+        width: 20%;
+        font-size: 1rem;
+    }
+
+    .banner-image img {
+        width: 60%;
+    }
+}
